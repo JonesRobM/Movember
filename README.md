@@ -69,7 +69,7 @@ The notebook:
 - Creates bar charts comparing metrics
 - Visualises the gap between prevalence and help-seeking behavior
 <figure>
-    <img src="figures/gap_chart.png" alt="Gap between prevalence and help-seeking among men" width="100%">
+    <img src="gap_chart.png" width="100%">
     <figcaption>Gap between prevalence and help-seeking among men</figcaption>
 </figure>
 You can also regenerate just the CSV by running the generator module directly from the notebooks directory.
