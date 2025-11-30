@@ -4,11 +4,11 @@ A compact dataset exploring key indicators of men's mental health in the UK - fr
 
 ## What's Inside
 
-This project consolidates data from NHS surveys, ONS statistics, and public research into a single CSV file and visualizations that highlight a critical story: many men experience mental health challenges, but far fewer reach out for support.
+This project consolidates data from NHS surveys, ONS statistics, and public research into a single CSV file and visualisations that highlight a critical story: many men experience mental health challenges, but far fewer reach out for support.
 
 **Dataset:** `data/mens_mental_health_compact_metrics.csv`
 
-**Visualizations:** `figures/mh_gap_chart.png` and `figures/mh_metrics_bar_chart.png`
+**Visualisations:** `figures/mh_gap_chart.png` and `figures/mh_metrics_bar_chart.png`
 
 **Analysis:** Jupyter notebook at `notebooks/metrics.ipynb`
 
@@ -58,7 +58,7 @@ Data on Improving Access to Psychological Therapies (talking therapies), includi
 
 ## Getting Started
 
-Open the Jupyter notebook to explore the data and generate visualizations:
+Open the Jupyter notebook to explore the data and generate visualisations:
 
 ```bash
 jupyter notebook notebooks/metrics.ipynb
@@ -67,8 +67,11 @@ jupyter notebook notebooks/metrics.ipynb
 The notebook:
 - Generates the CSV dataset using `gen_csv.py`
 - Creates bar charts comparing metrics
-- Visualizes the gap between prevalence and help-seeking behavior
-
+- Visualises the gap between prevalence and help-seeking behavior
+<figure>
+    <img src="figures/gap_chart.png" alt="Gap between prevalence and help-seeking among men" width="100%">
+    <figcaption>Gap between prevalence and help-seeking among men</figcaption>
+</figure>
 You can also regenerate just the CSV by running the generator module directly from the notebooks directory.
 
 ## Licensing and Attribution
