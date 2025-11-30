@@ -75,7 +75,7 @@ You can also regenerate just the CSV by running the generator module directly fr
 
 **Data:** Each metric is subject to the licensing terms of its original publisher (NHS Digital, ONS, NHS England, Priory Group, Psychreg).
 
-**This repository:** The code and aggregation are available under a permissive license (MIT/CC-BY).
+**This repository:** The code and aggregation are available under a permissive license (GPL).
 
 **Attribution:** Always cite the original sources when using this data - links are provided above and in the CSV itself.
 
